@@ -8,17 +8,18 @@ Imports DevExpress.XtraPivotGrid
 Namespace ASPxPivotGrid_RuntimeDataBinding
 	Partial Public Class _Default
 		Inherits Page
-		Private ds As AccessDataSource
+		Private ds As SqlDataSource
 		Private ASPxPivotGrid1 As ASPxPivotGrid
 		Protected Overrides Sub OnLoad(ByVal e As EventArgs)
 			MyBase.OnLoad(e)
 
 			' Initializes a data source.
-			ds = New AccessDataSource("~/nwind.mdb", "SELECT [CategoryName]," & _
-				"[ProductName], [ProductSales], [ShippedDate] FROM [ProductReports]")
+			ds = New SqlDataSource("System.Data.OleDb", "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\nwind.mdb",
+				"SELECT [CategoryName], [ProductName], [ProductSales], [ShippedDate] FROM [ProductReports]")
 
 			' Initializes ASPxPivotGrid.
 			ASPxPivotGrid1 = New ASPxPivotGrid()
+			ASPxPivotGrid1.OptionsData.DataProcessingEngine = PivotDataProcessingEngine.Optimized
 
 			' Binds ASPxPivotGrid to the data source.
 			ASPxPivotGrid1.DataSource = ds
@@ -39,7 +40,7 @@ Namespace ASPxPivotGrid_RuntimeDataBinding
 			ASPxPivotGrid1.Fields("ShippedDate").Area = PivotArea.ColumnArea
 			ASPxPivotGrid1.Fields("ProductSales").Area = PivotArea.DataArea
 
-			ASPxPivotGrid1.Fields("ShippedDate").GroupInterval = PivotGroupInterval.DateYear
+			DirectCast(ASPxPivotGrid1.Fields("ShippedDate").DataBinding, DataSourceColumnBinding).GroupInterval = PivotGroupInterval.DateYear
 		End Sub
 	End Class
 End Namespace
