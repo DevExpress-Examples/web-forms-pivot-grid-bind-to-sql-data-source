@@ -9,7 +9,7 @@ Namespace ASPxPivotGrid_RuntimeDataBinding
     Public Partial Class _Default
         Inherits Page
 
-    'Private AccessDataSource ds;
+        'private AccessDataSource ds;
         Private ds As SqlDataSource
 
         Private ASPxPivotGrid1 As ASPxPivotGrid
