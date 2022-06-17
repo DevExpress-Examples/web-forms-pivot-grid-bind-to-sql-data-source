@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2986)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Pivot Grid for Web Forms - How to create and bind Pivot Grid to data in code
+# Pivot Grid for Web Forms - How to Create and Bind Pivot Grid to Data in Code
 
 This example demonstrates how to create a Pivot Grid and bind it to data via code.
 
