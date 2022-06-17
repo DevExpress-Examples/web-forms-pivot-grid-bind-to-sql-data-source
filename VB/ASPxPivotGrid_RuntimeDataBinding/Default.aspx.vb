@@ -5,11 +5,15 @@ Imports DevExpress.Web.ASPxPivotGrid
 Imports DevExpress.XtraPivotGrid
 
 Namespace ASPxPivotGrid_RuntimeDataBinding
+
     Public Partial Class _Default
         Inherits Page
+
         'private AccessDataSource ds;
         Private ds As SqlDataSource
+
         Private ASPxPivotGrid1 As ASPxPivotGrid
+
         Protected Overrides Sub OnLoad(ByVal e As EventArgs)
             MyBase.OnLoad(e)
             ' Initializes a data source.
