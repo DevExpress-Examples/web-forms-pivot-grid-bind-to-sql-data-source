@@ -30,10 +30,10 @@ namespace ASPxPivotGrid_RuntimeDataBinding {
             if (ASPxPivotGrid1.Fields.Count != 0) 
                 return;
 
-            // Creates pivot grid fields for all data source fields.
+            // Creates Pivot Grid fields for all data source columns.
             ASPxPivotGrid1.RetrieveFields();
 
-            // Locates the pivot grid fields in appropriate areas.
+            // Locates the Pivot Grid fields in appropriate areas.
             ASPxPivotGrid1.Fields["CategoryName"].Area = PivotArea.RowArea;
             ASPxPivotGrid1.Fields["ProductName"].Area = PivotArea.RowArea;
             ASPxPivotGrid1.Fields["ShippedDate"].Area = PivotArea.ColumnArea;
