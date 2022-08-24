@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs"
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="Default.aspx.vb"
     Inherits="ASPxPivotGrid_RuntimeDataBinding._Default" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
