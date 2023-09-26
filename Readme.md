@@ -11,7 +11,7 @@ In this example, the [ASPxPivotGrid](https://docs.devexpress.com/AspNet/DevExpre
 
 Assign the SqlDataSource instance to the [ASPxPivotGrid.DataSource](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid.DataSource) property to bind the Pivot Grid to data. Then call the [ASPxPivotGrid.RetrieveFields](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid.RetrieveFields.overloads) method to generate [DataSourceColumnBinding](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.DataSourceColumnBinding?v=22.1) objects for each Pivot Grid field.
 
-## Files to Look At
+## Files to Review
 
 - [Default.aspx](./CS/ASPxPivotGrid_RuntimeDataBinding/Default.aspx) (VB: [Default.aspx](./VB/ASPxPivotGrid_RuntimeDataBinding/Default.aspx))
 - [Default.aspx.cs](./CS/ASPxPivotGrid_RuntimeDataBinding/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ASPxPivotGrid_RuntimeDataBinding/Default.aspx.vb))
