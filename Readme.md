@@ -10,7 +10,7 @@ This example demonstrates how to create a Pivot Grid and bind it to data via cod
 
 In this example, the [ASPxPivotGrid](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid) and SqlDataSource instances are created and initialized in code. 
 
-Assign the SqlDataSource instance to the [ASPxPivotGrid.DataSource](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid.DataSource) property to bind the Pivot Grid to data. Then call the [ASPxPivotGrid.RetrieveFields](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid.RetrieveFields.overloads) method to generate [DataSourceColumnBinding](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.DataSourceColumnBinding?v=22.1) objects for each Pivot Grid field.
+Assign the SqlDataSource instance to the [ASPxPivotGrid.DataSource](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid.DataSource) property to bind the Pivot Grid to data. Then call the [ASPxPivotGrid.RetrieveFields](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid.RetrieveFields.overloads) method to generate [DataSourceColumnBinding](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.DataSourceColumnBinding) objects for each Pivot Grid field.
 
 ## Files to Review
 
@@ -31,3 +31,4 @@ Assign the SqlDataSource instance to the [ASPxPivotGrid.DataSource](https://docs
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
